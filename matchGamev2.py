@@ -6,7 +6,7 @@ import random
 class MemoryGame(EasyFrame):
  
 	def __init__(self):
-		EasyFrame.__init__(self, title = "Panel Demo", width = 1200, height = 700)
+		EasyFrame.__init__(self, title = "Memory Game", width = 1200, height = 700)
 
 		# The game table's data. (Where the card will be located)
 		self.gameData = []
